@@ -6,7 +6,7 @@
 	"content_scripts": [
 		{
 			"matches": ["*://jut.su/*"],
-			"js": ["nastya.js"]
+			"js": ["main.js"]
 		}
 	]
 }
