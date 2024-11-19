@@ -4,6 +4,9 @@
 	"version": "1.0.0",
 	"description": "This is a Firefox extension to skip the credits(ending) of an anime on the 'jut.su' site.",
 	"homepage_url": "https://github.com/DmEye/ending-skipper",
+	"icons": {
+		"48": "icons/ending-skipper-48.png"
+	},
 	"content_scripts": [
 		{
 			"matches": ["*://jut.su/*"],
