@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "Ending-skipper",
+	"version": "1.0.0",
+	"description": "This is a Firefox extension to skip the credits(ending) of an anime on the 'jut.su' site.",
+	"content_scripts": [
+		{
+			"matches": ["*://jut.su/*"],
+			"js": ["nastya.js"]
+		}
+	]
+}
